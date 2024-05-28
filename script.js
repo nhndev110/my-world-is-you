@@ -5,7 +5,7 @@ class App {
   handleChange() {
     $("#option").on("change", (ev) => {
       if (ev.target.value === "4K") {
-        $("h1.title").text("CÒN ĐÂY LÀ HÌNH ẢNH THẾ GIỚI CỦA ANH <3");
+        $("h1.title").text("CÒN ĐÂY LÀ HÌNH ẢNH THẾ GIỚI CỦA TỚ <3");
         $(".earth-img").html(
           `<img class="animate__animated animate__jackInTheBox" id="img" src="img/crush.png" height="300px" />`
         );
