@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  flex-direction: column;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+
+#img {
+  margin-bottom: 32px;
+}
+
+.d-none {
+  display: none;
+}
